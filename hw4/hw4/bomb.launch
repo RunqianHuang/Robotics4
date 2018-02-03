@@ -1,0 +1,7 @@
+<!-- Launch the solution & visualization code for HW4 -->
+<launch>
+  <node name="p1" pkg="hw4" type="p1.py" output="screen"/>
+  <node name="p2" pkg="hw4" type="p2.py" output="screen"/>
+  <node name="driver" pkg="foundations_hw4" type="drive.py" output="screen"/>
+  <node name="visualization" pkg="foundations_hw4" type="visualizer" output="screen"/>
+</launch>
